@@ -125,4 +125,8 @@ trainer = Trainer(
                checkpoint_callback],        # our model checkpoint callback
     max_epochs=20)            
 trainer.fit(model, training_loader, validation_loader)
+
+
+print('hello world')
+print('git testing')
 wandb.finish()
